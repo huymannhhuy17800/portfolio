@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'DuneRise';
+    src: url('/fonts/Dune_Rise.woff') format('woff'),
+         url('/fonts/Dune_Rise.ttf') format('truetype'); 
+}
+:root{
+    /* Colors */
+    --color-text: #C2B280;
+    --color-primary: #C2B280;
+    --color-secondary: #63e4ed;
+    --color-bg: #fff;
+
+    /* Fonts */
+    --font-dune:'DuneRise';
+}
