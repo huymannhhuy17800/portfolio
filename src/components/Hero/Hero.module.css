@@ -21,8 +21,11 @@
 
 .title {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 900;
     font-family: var(--font-dune);
+    img{
+        width: 33px;
+    }
 }
 
 .role{
@@ -34,20 +37,34 @@
 .description{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(147, 149, 149);
     padding: 5px;
     line-height: 25px;
+}
+
+.contact{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    img{
+        width: 33px;
+        cursor: pointer;
+    }
 }
 
 .button{
     font-size: 20px;
     font-weight: 500;
-    background: var(--color-primary);
     padding: 10px 7px;
     border-radius: 10px;
     cursor: pointer;
+    background: linear-gradient(90deg,rgba(53,232,226,0.8) 100%,rgba(53,232,226,0.41) 50%);
 
 }
 
+.button:hover{
+    background: ;
+}
 .heroImg{
     width: 45%;
     z-index: 1;
@@ -70,4 +87,35 @@
     100%{
         transform: translate(0,-0px);
     }
+}
+
+@media screen and (max-width: 830px) {
+
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .content{
+        align-items: center;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 30px;
+        img{
+            display: none;   
+        }
+    }
+
+    .role{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .description{
+        font-size: 15px;
+    }
+
 }

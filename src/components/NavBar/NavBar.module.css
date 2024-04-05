@@ -24,11 +24,21 @@
 
 .menuItems{
     display: flex;
+    justify-content: center;    
     list-style: none;
     gap:40px;
     img{
-       width: 20px;
-       height: 20px; 
+       margin-right: 5px;
+       width: 30px;
+       height: 30px; 
+    }
+    li{
+        padding: 10px;
+    }
+    li:hover{
+        background: rgb(249, 246, 246);
+        border-radius: 10px;
+        padding: 10px;  
     }
 }
 
@@ -37,6 +47,7 @@
     color: var(--color-text);
     text-decoration: none;
 }
+
 
 .menuBtn{
     display: none;

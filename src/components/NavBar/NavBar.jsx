@@ -26,23 +26,18 @@ export const NavBar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <img src={getImageUrl("nav/icon/about.png")} alt="" />
             <a href="#about">About</a>
           </li>
           <li>
-            <img src={getImageUrl("nav/icon/skills.png")} alt="" />
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <img src={getImageUrl("nav/icon/experience.png")} alt="" />
             <a href="#experience">Experiences</a>
           </li>
           <li>
-            <img src={getImageUrl("nav/icon/contact.png")} alt="" />
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <img />
             <a href="#interest">Interest Zone</a>
           </li>
         </ul>
