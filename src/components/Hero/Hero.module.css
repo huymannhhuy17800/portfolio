@@ -47,7 +47,7 @@
     list-style: none;
     gap: 10px;
     img{
-        width: 33px;
+        width: 40px;
         cursor: pointer;
     }
 }
@@ -58,20 +58,33 @@
     padding: 10px 7px;
     border-radius: 10px;
     cursor: pointer;
-    background: linear-gradient(90deg,rgba(53,232,226,0.8) 100%,rgba(53,232,226,0.41) 50%);
-
+    background: #4681f4;
+    color:white;
 }
 
 .button:hover{
-    background: ;
+    background: rgb(220, 220, 220);
+    color: black;
+}
+
+.imgContainer{ 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .heroImg{
-    width: 45%;
+    width: 80%;
     z-index: 1;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+
+.supImg{
+    display: none;
+    z-index: 1; 
 }
 
 
@@ -88,6 +101,7 @@
         transform: translate(0,-0px);
     }
 }
+
 
 @media screen and (max-width: 830px) {
 
@@ -116,6 +130,33 @@
 
     .description{
         font-size: 15px;
+    }
+
+    .heroImg{
+        animation-name: sup-floating;
+    }
+
+    .supImg{
+        display: block;
+        animation-name: sup-floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    
+    @keyframes sup-floating{
+        0%{
+            transform: translate(0,0px);
+        }
+    
+        50% {
+            transform: translate(0,20px);
+        }   
+    
+        100%{
+            transform: translate(0,-0px);
+        }
     }
 
 }

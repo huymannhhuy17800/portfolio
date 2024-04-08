@@ -34,6 +34,7 @@
     }
     li{
         padding: 10px;
+        font-weight: 500;
     }
     li:hover{
         background: rgb(249, 246, 246);

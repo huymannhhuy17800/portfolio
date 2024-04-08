@@ -1,2 +1,20 @@
-@import '../../vars.css'
+@import '../../vars.css' ;
 
+.container {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
+    font-family: var(--font-dune);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content{
+    background: rgb(253, 252, 252);
+    border-radius: 15px;
+    padding: 15px 5px;
+}

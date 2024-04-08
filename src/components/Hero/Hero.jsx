@@ -6,7 +6,7 @@ export const Hero = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Hello, I'm Huy Nguyen <img src={getImageUrl("hero/vietnam.png")} />
+          Hi, I am Huy Nguyen <img src={getImageUrl("hero/vietnam.png")} />
         </h1>
         <h2 className={styles.role}>{"<Chicken Developer/>"}</h2>
         <h3 className={styles.description}>
@@ -15,23 +15,37 @@ export const Hero = () => {
         </h3>
         <ul className={styles.contact}>
           <li>
-            <img src={getImageUrl("hero/contact/github.png")} />
+            <img
+              src={getImageUrl("hero/contact/github.png")}
+              alt="github-icon"
+            />
           </li>
           <li>
-            <img src={getImageUrl("hero/contact/linkedin.png")} />
+            <img
+              src={getImageUrl("hero/contact/linkedin.png")}
+              alt="linkedin-icon"
+            />
           </li>
           <li>
-            <img src={getImageUrl("hero/contact/mail.png")} />
+            <img src={getImageUrl("hero/contact/mail.png")} alt="mail-icon" />
           </li>
           <li>
-            <img src={getImageUrl("hero/contact/facebook.png")} />
+            <img src={getImageUrl("hero/contact/facebook.png")} alt="fb-icon" />
           </li>
           <li>
-            <img src={getImageUrl("hero/contact/twitter.png")} />
+            <img
+              src={getImageUrl("hero/contact/twitter.png")}
+              alt="contact-icon"
+            />
           </li>
         </ul>
-        <a className={styles.button}>Know more 😎</a>
+        <a className={styles.button}>Know More 😎</a>
       </div>
+      <img
+        src={getImageUrl("hero/superman.png")}
+        alt="superman-icon"
+        className={styles.supImg}
+      />
       <img
         src={getImageUrl("hero/hero.png")}
         className={styles.heroImg}
