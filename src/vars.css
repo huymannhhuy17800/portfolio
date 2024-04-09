@@ -12,4 +12,12 @@
 
     /* Fonts */
     --font-dune:'DuneRise';
+
+
+    /* Animation */
+    --play : running;
+    --direction : normal;
+    --duration : 32s;
+    --delay: 0;
+    --iteration-count:infinite;
 }

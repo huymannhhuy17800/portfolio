@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./NavBar.module.css";
+import styles from "./NavBar.module.scss";
 import { getImageUrl } from "../../utils";
 
 export const NavBar = () => {
@@ -8,7 +8,7 @@ export const NavBar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        {"<Portfolio/>"}
       </a>
       <div className={styles.menu}>
         <img
@@ -38,7 +38,7 @@ export const NavBar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="#interest">Interest Zone</a>
+            <a href="#interest">Interest</a>
           </li>
         </ul>
       </div>

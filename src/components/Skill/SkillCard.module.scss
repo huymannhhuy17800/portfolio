@@ -1,0 +1,27 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    background: rgb(0, 156, 156);
+    box-shadow: rgba(74, 60, 234, 0.3) 0px 0px 30px;
+    margin: 15px 10px;
+    gap: 1rem;
+    img{
+        width: 48px;
+        margin: 0 auto;
+    }
+
+    h3{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: white;
+    }
+}
+

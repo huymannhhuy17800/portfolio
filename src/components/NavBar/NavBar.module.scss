@@ -12,10 +12,11 @@
 }
 
 .title{
-    font-size: 30px;
+    font-size: 25px;
     font-family: var(--font-dune);
     text-decoration: none;
     font-weight: 600;
+    color: black;
 }
 
 .menu {
@@ -44,7 +45,9 @@
 }
 
 .menuItems a{
-    font-size: 25px;
+    font-family: var(--font-dune);
+    font-size: 15px;
+    font-weight: 700;
     color: var(--color-text);
     text-decoration: none;
 }

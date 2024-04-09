@@ -2,7 +2,9 @@ import React from "react";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Hero } from "./components/Hero/Hero";
 import { About } from "./components/About/About";
-import styles from "./App.module.css";
+import { Project } from "./components/Project/Project";
+import { Skill } from "./components/Skill/Skill";
+import styles from "./App.module.scss";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <NavBar />
       <Hero />
       <About />
+      <Skill />
+      <Project />
     </div>
   );
 }

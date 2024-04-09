@@ -1,0 +1,39 @@
+@import "../../vars.css";
+
+.container{ 
+    position: relative;
+    margin-top: 100px;
+}
+
+.title{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: var(--font-dune);
+}
+
+.marquee {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 1rem;
+}
+
+.marqueeContent{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    min-width: 100%;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 1rem));
+    }
+}

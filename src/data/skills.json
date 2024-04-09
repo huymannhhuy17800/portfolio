@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "HTML5",
+        "srcImg" : "skills/html.png"
+    },
+    {
+        "name" : "CSS",
+        "srcImg" : "skills/css.png"
+    },
+    {
+        "name" : "SASS",
+        "srcImg" : "skills/sass.png"
+    },
+    {
+        "name" : "ReactJS",
+        "srcImg" : "skills/react.png"
+    },
+    {
+        "name" : "Mendix",
+        "srcImg" : "skills/mendix.png"
+    },
+    {
+        "name" : "Java",
+        "srcImg" : "skills/java.png"
+    },
+    {
+        "name" : "SQL Server",
+        "srcImg" : "skills/sql-server.png"
+    }
+]
