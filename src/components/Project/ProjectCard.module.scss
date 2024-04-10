@@ -1,0 +1,91 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    height: 360px;
+    border-radius: 15px;
+    background: radial-gradient(circle, rgba(199,198,207,1) 0%, rgba(193,208,13,1) 0%, rgba(196,207,5,1) 0%, rgba(228,246,69,1) 0%, rgba(103,232,245,1) 99%);;
+    cursor: pointer;
+    h2{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        margin: 10px 0 20px 0;
+    }
+
+}
+
+.container:hover .description{
+    animation-play-state: running;
+}
+
+.container:not(:hover) .description{
+    display: none;
+}
+
+
+.thumbnail{
+    width: 85%;
+    border-radius: 10px;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+    gap: 50px;
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid white;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    a:hover{
+        color: green;
+        background-color: black;
+        border-color: black;
+    }
+
+}
+
+.description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+    font-size: 17px;
+    width: 95%;
+    height: 170px;
+    border-radius: 0px 15px 15px 0;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    animation-name: reveal;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%,0px,0px);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+@media screen and (max-width:830px) {
+    
+}

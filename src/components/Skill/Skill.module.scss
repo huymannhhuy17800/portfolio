@@ -2,12 +2,13 @@
 
 .container{ 
     position: relative;
-    margin-top: 100px;
+    margin: 100px 0;
 }
 
 .title{
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 50px;
     font-family: var(--font-dune);
 }
 
@@ -29,6 +30,9 @@
     animation: scroll 10s linear infinite;
 }
 
+.marquee:hover .marqueeContent {
+    animation-play-state: paused;
+}
 @keyframes scroll {
     from{
         transform: translateX(0);
@@ -37,3 +41,4 @@
         transform: translateX(calc(-100% - 1rem));
     }
 }
+

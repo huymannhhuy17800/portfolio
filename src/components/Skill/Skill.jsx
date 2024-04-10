@@ -15,7 +15,9 @@ export const Skill = () => {
         </ul>
         <ul className={styles.marqueeContent}>
           {skills.map((skill, key) => {
-            return <SkillCard key={key} skill={skill} />;
+            return (
+              <SkillCard key={key} skill={skill} className={styles.card} />
+            );
           })}
         </ul>
       </div>

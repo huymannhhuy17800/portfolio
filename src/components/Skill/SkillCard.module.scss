@@ -8,10 +8,11 @@
     width: 130px;
     height: 130px;
     border-radius: 10px;
-    background: rgb(0, 156, 156);
-    box-shadow: rgba(74, 60, 234, 0.3) 0px 0px 30px;
+    background: radial-gradient(circle, rgba(199,198,207,1) 0%, rgba(193,208,13,1) 0%, rgba(196,207,5,1) 0%, rgba(228,246,69,1) 0%, rgba(103,232,245,1) 99%);
+    box-shadow: rgba(74, 60, 234, 0.3) 0px 0px 20px;
     margin: 15px 10px;
     gap: 1rem;
+    cursor: pointer;
     img{
         width: 48px;
         margin: 0 auto;
@@ -24,4 +25,6 @@
         color: white;
     }
 }
+
+
 
