@@ -7,8 +7,8 @@
     justify-content: space-between;
     margin-top: 50px;
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .content {
@@ -50,6 +50,9 @@
         width: 40px;
         cursor: pointer;
     }
+    li:hover {
+        transform: scale(1.2); // scale the button bigger when hovering
+    }
 
 }
 
@@ -66,11 +69,15 @@
 .button:hover{
     background: #3b78f3;
     color: black;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 .heroImg{
     width: 45%;
     z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.25);
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;

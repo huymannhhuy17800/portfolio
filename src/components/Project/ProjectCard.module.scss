@@ -4,8 +4,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0; // keep width of the container 
     align-items: center;
-    max-width: 300px;
+    width: 300px;
     height: 360px;
     border-radius: 15px;
     background: radial-gradient(circle, rgba(199,198,207,1) 0%, rgba(193,208,13,1) 0%, rgba(196,207,5,1) 0%, rgba(228,246,69,1) 0%, rgba(103,232,245,1) 99%);;
@@ -20,11 +21,11 @@
 }
 
 .container:hover .description{
-    animation-play-state: running;
+    animation-play-state: running; //start animation when hover
 }
 
 .container:not(:hover) .description{
-    display: none;
+    display: none; // when not hovering make the div disappear
 }
 
 
@@ -60,18 +61,18 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: black;
+    background-color: white;
     padding: 5px;
     font-size: 17px;
     width: 95%;
     height: 170px;
     border-radius: 0px 15px 15px 0;
-    color: white;
+    color: black;
     position: absolute;
     left: 0;
     top: 20%;
     animation-name: reveal;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-play-state: paused;
 }

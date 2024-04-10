@@ -1,10 +1,19 @@
 @import "../../vars.css";
 
 .container{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .title{
     font-family: var(--font-dune);
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin-top: 50px;
+    gap: 80px;
 }

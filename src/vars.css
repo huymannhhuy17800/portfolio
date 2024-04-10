@@ -5,9 +5,10 @@
 }
 :root{
     /* Colors */
-    --color-text: #C2B280;
-    --color-primary: #C2B280;
-    --color-secondary: #63e4ed;
+    --color-text: #Fbeec1;
+    --color-primary: #8d8741;
+    --color-secondary: #659dbd;
+    --color-third:#daad86;
     --color-bg: #fff;
 
     /* Fonts */
