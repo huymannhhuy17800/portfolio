@@ -8,8 +8,9 @@
 }
 
 .title{
+    font-size: 40px;
     font-family: var(--font-dune);
-    font-weight: 600;
+    font-weight: 900;
     margin-bottom: 10px;
 }
 
@@ -19,6 +20,7 @@
     align-items: center;
     border-radius: 5px;
     padding: 10px 5px;
+    gap: 20px;
 }
 
 .sampleImg {

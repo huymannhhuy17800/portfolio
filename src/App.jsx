@@ -5,7 +5,9 @@ import { About } from "./components/About/About";
 import { Project } from "./components/Project/Project";
 import { Skill } from "./components/Skill/Skill";
 import { Contact } from "./components/Contact/Contact";
+import { Divider } from "./components/Divider/Divider";
 import styles from "./App.module.scss";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Skill />
       <Project />
       <Contact />
+      <Divider />
+      <Footer />
     </div>
   );
 }
