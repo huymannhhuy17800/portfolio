@@ -1,8 +1,16 @@
 
 
 .divider {
-    border: 5px solid white;
-    width: 100%;
-    border-radius: 50px;
-    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.circle {
+    border: 2px solid black;
+    width: 8px;
+    height: 8x;
+    border-radius: 15px;
 }

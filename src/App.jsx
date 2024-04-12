@@ -8,6 +8,7 @@ import { Contact } from "./components/Contact/Contact";
 import { Divider } from "./components/Divider/Divider";
 import styles from "./App.module.scss";
 import { Footer } from "./components/Footer/Footer";
+import { TopButton } from "./components/TopButton/TopButton";
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
       <Skill />
       <Project />
       <Contact />
-      <Divider />
       <Footer />
+      <TopButton />
     </div>
   );
 }

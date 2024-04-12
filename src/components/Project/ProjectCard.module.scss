@@ -20,6 +20,10 @@
 
 }
 
+.container:hover {
+    transform: scale(1.05);
+}
+
 .container:hover .description{
     animation-play-state: running; //start animation when hover
 }

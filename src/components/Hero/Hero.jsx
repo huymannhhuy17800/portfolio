@@ -5,8 +5,10 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <div className={styles.intro}>
+        <div>
           <h1 className={styles.title}>Hi, I am Huy Nguyen</h1>
+        </div>
+        <div className={styles.intro}>
           <h2 className={styles.role}>Chicken Developer</h2>
           <h3 className={styles.description}>
             I'm currently working at FPT software, my goal is to become

@@ -1,7 +1,9 @@
 import React from "react";
-
+import "./styles.scss";
 export const Footer = () => {
   return (
-    <div>Made with 🩵 by Manh Huy Nguyen &copy;{new Date().getFullYear()}</div>
+    <div className="footer">
+      Made with 🩵 by Manh Huy Nguyen &copy;{new Date().getFullYear()}
+    </div>
   );
 };

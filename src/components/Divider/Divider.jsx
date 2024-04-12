@@ -3,7 +3,9 @@ import styles from "./Divider.module.scss";
 export const Divider = () => {
   return (
     <div className={styles.divider}>
-      <span></span>
+      <div className={styles.circle}></div>
+      <div className={styles.circle}></div>
+      <div className={styles.line}></div>
     </div>
   );
 };

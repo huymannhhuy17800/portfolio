@@ -14,7 +14,10 @@ export const About = () => {
             <img />
             <p>
               Base in Saigon, Ex-FPT University student, passionate in reading
-              books, manga, watching anime, films.
+              books, manga, watching anime, films.Base in Saigon, Ex-FPT
+              University student, passionate in reading books, manga, watching
+              anime, films.Base in Saigon, Ex-FPT University student, passionate
+              in reading books, manga, watching anime, films.
             </p>
           </li>
           <li>
