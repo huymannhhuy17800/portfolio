@@ -5,11 +5,12 @@
 }
 :root{
     /* Colors */
-    --color-text: #Fbeec1;
-    --color-primary: #8d8741;
+    --color-text: rgb(255, 221, 67);
+    --color-primary: #Fbeec1;
     --color-secondary: #659dbd;
-    --color-third:#daad86;
-    --color-bg: #fff;
+    --color-third:#8d8741;
+    /*--color-bg: rgba(162,223,228,255);*/
+    --color-bg: rgb(33,33,33);
 
     /* Fonts */
     --font-dune:'DuneRise';

@@ -22,11 +22,12 @@
 .title {
     font-size: 40px;
     font-weight: 800;
+    color: var(--color-text);
     width: fit-content;
     align-self: flex-start;
     font-family: var(--font-dune);
     overflow: hidden; // make overflow text invisible while using animation typing
-    border-right: .15em solid black; // cursor 
+    border-right: .15em solid white; // cursor 
     white-space: nowrap; // make overlined text go overflow on the same line 
     margin: 0 auto;
     letter-spacing: .1em;
@@ -44,19 +45,20 @@
 
 @keyframes blink-caret {
     from , to {border-color: transparent;}
-    50% {border-color: black;}
+    50% {border-color: white;}
 } // blink animation for cursor
 
 .role{
     font-size: 35px;
     font-weight: 500;
+    color: var(--color-text);
     margin: 5px 0 15px 0;
 }
 
 .description{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--color-text);
+    color: white;
     padding: 5px 0px;
     line-height: 25px;
 }
@@ -66,7 +68,9 @@
     list-style: none;
     gap: 10px;
     img{
-        width: 40px;
+        border: 2.5px solid white;
+        border-radius: 50%;
+        width: 50px;
         cursor: pointer;
     }
     li:hover {
@@ -81,8 +85,8 @@
     padding: 10px 7px;
     border-radius: 10px;
     cursor: pointer;
-    background: #4681f4;
-    color:white;
+    background: var(--color-text);
+    color: var(--color-bg);
 }
 
 .button:hover{

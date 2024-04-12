@@ -18,13 +18,13 @@ export const ProjectCard = () => {
       </div>
       <div className={styles.actions}>
         <a href="">
-          <img src={getImageUrl("project/demo.png")} alt="demo" />
+          <img src={getImageUrl("project/demo.svg")} alt="demo" />
         </a>
         <a href="">
-          <img src={getImageUrl("project/usecase.png")} alt="use-case" />
+          <img src={getImageUrl("project/usecase.svg")} alt="use-case" />
         </a>
         <a href="">
-          <img src={getImageUrl("project/source.png")} alt="source" />
+          <img src={getImageUrl("project/source.svg")} alt="source" />
         </a>
       </div>
     </div>

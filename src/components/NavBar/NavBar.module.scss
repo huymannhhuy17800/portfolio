@@ -16,7 +16,7 @@
     font-family: var(--font-dune);
     text-decoration: none;
     font-weight: 600;
-    color: black;
+    color: var(--color-third);
 }
 
 .menu {
@@ -38,7 +38,8 @@
         font-weight: 500;
     }
     li:hover{
-        background: rgb(249, 246, 246);
+        color: black;
+        background: var(--color-third);
         border-radius: 10px;
         padding: 10px;  
         transform: scale(1.2);
@@ -86,7 +87,7 @@
         padding: 10px 20px;
         gap: 15px;
         background:var(--color-secondary);
-        background: linear-gradient(90deg,#9cfff2 0%, #fcf877 100%);
+        background: rgb(33, 33, 33);
     }
 
     .menuBtn{

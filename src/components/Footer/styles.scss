@@ -1,9 +1,11 @@
-
+@import "../../vars.css";
 
 .footer {
+    color: var(--color-text);
     font-size: 20px;
     font-weight: 500;
     margin: 20px 5% 0%;
     display: flex;
     justify-content: center;
 }
+

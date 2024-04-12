@@ -15,6 +15,7 @@
     font-size: 40px;
     font-weight: 900;
     font-family: var(--font-dune);
+    color: var(--color-text);
     margin-bottom: 50px;
 }
 
@@ -35,13 +36,15 @@
         align-items: center;
         width: 50px;
         height: 50px;
-        border: 3px solid white;
         border-radius: 50%;
         cursor: pointer;
+        background: var(--color-text);
     }
+    
     
     li > a:hover {
         transform: scale(1.2);
+        background: var(--color-text);
     }
 
     span{
@@ -50,6 +53,10 @@
         cursor: pointer;
         margin-left: 15px;
     }
+
+    img {
+        width: 24px;
+    }
 }
 
 .form{
@@ -57,13 +64,15 @@
     flex-direction: column;
     gap: 10px;
     button {
+        background: var(--color-text);
+        font-weight: 600;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 15px;
         width: 150px;
         height: 50px;
-        font-size: 19px;
+        font-size: 20px;
         gap: 10px;
         border-radius: 20px;
         border: none;
@@ -81,10 +90,10 @@
     flex-direction: column;
     label{
         width: fit-content;
-        font-size: 17px;
+        font-size: 18px;
         font-weight: 600;
-        color: black;
-        background: #70aed2;
+        color: var(--color-text);
+        background: rgb(33, 33, 33);
         padding: 0 5px; // padding input 
         transform: translate(25px,50%); // label overlapped input
     }
@@ -93,32 +102,36 @@
 
 .input{
     font-weight: 600;
+    color: white;
     width: 350px;
     height: 43px;
-    border: 3px solid black;
+    border: 3.5px solid var(--color-text);
     border-radius: 15px;
     padding-left: 10px;
-    background: #70aed2;
+    background: var(--color-bg);
 }
 
 .input:focus {
+    color: white;
     outline: none;
 }
 
 
 .textarea {
+    color: white;
     font-weight: 600;
     width: 350px;
     min-height: 130px;
-    border: 3px solid black;
+    border: 3.5px solid var(--color-text);
     border-radius: 15px;
     padding-left: 10px;
     padding-top: 10px;
     resize: none;
-    background: #70aed2;
+    background: var(--color-bg);
 }
 
 .textarea:focus {
+    color: white;
     outline: none;
 }
 
