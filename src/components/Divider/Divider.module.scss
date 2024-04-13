@@ -1,16 +1,24 @@
-
+@import "../../vars.css";
 
 .divider {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 5%;
+    margin-top: 50px;
+}
 
+.line {
+    width: 100%;
+    height: 5px;
+    background: var(--color-text);
+    border-radius: 10px;
 }
 
 .circle {
-    border: 2px solid black;
-    width: 8px;
-    height: 8x;
-    border-radius: 15px;
+    background: var(--color-text);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }

@@ -10,6 +10,7 @@
     font-weight: 900;
     font-family: var(--font-dune);
     color: var(--color-text);
+    margin-bottom: 50px;
 }
 
 .projects {
@@ -17,6 +18,5 @@
     display: flex;
     justify-content: center;
     flex-flow: wrap;
-    margin-top: 50px;
     gap: 80px;
 }

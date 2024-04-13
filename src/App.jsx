@@ -5,7 +5,7 @@ import { About } from "./components/About/About";
 import { Project } from "./components/Project/Project";
 import { Skill } from "./components/Skill/Skill";
 import { Contact } from "./components/Contact/Contact";
-import { Divider } from "./components/Divider/Divider";
+import { Divider, Divider2 } from "./components/Divider/Divider";
 import styles from "./App.module.scss";
 import { Footer } from "./components/Footer/Footer";
 import { TopButton } from "./components/TopButton/TopButton";
@@ -15,10 +15,12 @@ function App() {
     <div className={styles.App}>
       <NavBar />
       <Hero />
+      <Divider2 />
       <About />
       <Skill />
       <Project />
       <Contact />
+      <Divider />
       <Footer />
       <TopButton />
     </div>

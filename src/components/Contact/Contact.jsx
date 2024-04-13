@@ -57,6 +57,7 @@ export const Contact = () => {
             Send! <img src={getImageUrl("contact/send.svg")} />
           </button>
         </form>
+        <img src={getImageUrl("sample.png")} alt="sample-img" />
       </div>
     </section>
   );
