@@ -8,7 +8,7 @@ import { Contact } from "./components/Contact/Contact";
 import { Divider, Divider2 } from "./components/Divider/Divider";
 import styles from "./App.module.scss";
 import { Footer } from "./components/Footer/Footer";
-import { TopButton } from "./components/TopButton/TopButton";
+import { TopButton } from "./components/Button/TopButton";
 
 function App() {
   return (
@@ -16,13 +16,13 @@ function App() {
       <NavBar />
       <Hero />
       <Divider2 />
+      <TopButton />
       <About />
       <Skill />
       <Project />
       <Contact />
       <Divider />
       <Footer />
-      <TopButton />
     </div>
   );
 }

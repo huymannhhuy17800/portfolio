@@ -48,7 +48,7 @@
     }
 
     span{
-        color: white;
+        color: var(--color-text);
         font-weight: 600;
         cursor: pointer;
         margin-left: 15px;
@@ -135,8 +135,16 @@
     outline: none;
 }
 
+.sampleImg {
+    margin-left: 50px;
+    filter: drop-shadow(5px 5px 5px var(--color-text));
+    cursor: pointer;
+}
 @media screen and (max-width: 830px) {
 
+    .sampleImg {
+        display: none;
+    }
 }
 
 

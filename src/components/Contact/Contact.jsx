@@ -9,19 +9,19 @@ export const Contact = () => {
         <ul className={styles.contacts}>
           <li>
             <a>
-              <img src={getImageUrl("contact/mail.svg")} />
+              <img src={getImageUrl("contact/mail.svg")} alt="mail-icon" />
             </a>
             <span>huymanhhuy178@gmail.com</span>
           </li>
           <li>
             <a>
-              <img src={getImageUrl("contact/phone.svg")} />
+              <img src={getImageUrl("contact/phone.svg")} alt="phone.icon" />
             </a>
             <span>+84902744495</span>
           </li>
           <li>
             <a>
-              <img src={getImageUrl("contact/map.svg")} />
+              <img src={getImageUrl("contact/map.svg")} alt="map-icon" />
             </a>
             <span>Vinh Loc B, Binh Chanh, Ho Chi Minh</span>
           </li>
@@ -54,10 +54,14 @@ export const Contact = () => {
             />
           </div>
           <button type="submit">
-            Send! <img src={getImageUrl("contact/send.svg")} />
+            Send! <img src={getImageUrl("contact/send.svg")} alt="send-icon" />
           </button>
         </form>
-        <img src={getImageUrl("sample.png")} alt="sample-img" />
+        <img
+          src={getImageUrl("sample.png")}
+          alt="sample-img"
+          className={styles.sampleImg}
+        />
       </div>
     </section>
   );

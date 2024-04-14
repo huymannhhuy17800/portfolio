@@ -1,0 +1,28 @@
+
+.button{
+    position: fixed;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    left: 96%; 
+    bottom: 40px;  
+   z-index: 1; 
+   cursor: pointer; 
+   background: black;
+   border-radius: 50%;
+   border: none;
+   background: rgb(255, 221, 67);
+}
+
+@media screen and (max-width: 830px) {
+
+    .button {
+        bottom: 10px;
+        left: 50%;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+

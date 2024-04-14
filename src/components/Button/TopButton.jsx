@@ -24,7 +24,11 @@ export const TopButton = () => {
   window.addEventListener("scroll", toggleVisible);
 
   return (
-    <button onClick={scrollToTop}>
+    <button
+      className={styles.button}
+      style={{ display: visible ? "inline" : "none" }}
+      onClick={scrollToTop}
+    >
       <img src={getImageUrl("up.svg")} alt="up-icon" />
     </button>
   );
