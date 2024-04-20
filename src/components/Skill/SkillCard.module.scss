@@ -10,7 +10,7 @@
     border-radius: 50%;
     //background: linear-gradient(to right, #70aed2, #7db7d9, #89c0e0, #96cae8, #a2d3ef);
     background: var(--color-text);
-    box-shadow: rgba(252, 252, 252, 0.3) 0px 0px 20px;
+    box-shadow: rgba(245, 245, 5, 0.86) 0px 0px 20px;
     margin: 15px 10px;
     gap: 1rem;
     cursor: pointer;
@@ -28,7 +28,7 @@
 }
 
 .container:hover{
-    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    box-shadow: rgba(245, 245, 5, 0.86) 0px 0px 20px;
     transform: scale(1.1);
 }
 

@@ -74,13 +74,19 @@
         height: 50px;
         font-size: 20px;
         gap: 10px;
-        border-radius: 20px;
+        border-radius: 10px;
         border: none;
+        box-shadow: 0 8px #999;
         cursor: pointer;
     }
 
     button:hover {
-        transform: scale(1.1);
+        background: rgb(214, 180, 27);
+    }
+    button:active {
+        background: rgb(214, 180, 27);
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
     }
 }
 
