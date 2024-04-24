@@ -4,7 +4,11 @@ import { getImageUrl } from "../../utils";
 
 export const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [mode, setMode] = useState(false);
 
+  const toggleMode = () => {
+    setMode(!mode);
+  };
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
@@ -37,9 +41,16 @@ export const NavBar = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li>
-            <a href="#interest">Interest</a>
-          </li>
+          <img
+            src={
+              mode
+                ? getImageUrl("mode/light.svg")
+                : getImageUrl("mode/dark.svg")
+            }
+            alt="mode-icon"
+            className={styles.mode}
+            onClick={toggleMode}
+          />
         </ul>
       </div>
     </nav>

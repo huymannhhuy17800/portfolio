@@ -39,11 +39,21 @@
     }
     li:hover{
         color: black;
-        background: var(--color-primary);
-        border-radius: 10px;
+        background: white;
+        border-radius: 5px;
         padding: 10px;  
         transform: scale(1.2);
     }
+}
+.mode {
+    cursor: pointer;
+}
+.mode:hover {
+    transform: scale(1.2);
+}
+
+.mode:active {
+    transform: translatey(5px);
 }
 
 .menuItems a{

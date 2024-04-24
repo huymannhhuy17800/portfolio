@@ -78,6 +78,7 @@
         transform: scale(1.2); // scale the button bigger when hovering
     }
 
+
 }
 
 .button{
@@ -87,14 +88,19 @@
     border-radius: 10px;
     cursor: pointer;
     background: var(--color-text);
+    box-shadow: 0 10px #999;
     color: var(--color-bg);
 }
 
 .button:hover{
-    background: #Fbeec1;
-    color: black;
-    transform: scale(1.1);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    background: rgb(214, 180, 27);
+}
+
+.button:active{
+
+    transform: translateY(5px);
+    box-shadow: 0 5px #999;
+    
 }
 
 .heroImg{
@@ -194,9 +200,3 @@
 
 }
 
-// @media screen and (max-width:640px) {
-    
-//     .title {
-//         font-size: 15px;
-//     }
-// }

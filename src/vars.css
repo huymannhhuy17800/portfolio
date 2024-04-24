@@ -3,6 +3,12 @@
     src: url('/fonts/Dune_Rise.woff') format('woff'),
          url('/fonts/Dune_Rise.ttf') format('truetype'); 
 }
+
+@font-face {
+    font-family: 'SFMono Regular 11';
+    src: url('/fonts/SFMono-Regular.otf') format('opentype');
+}
+
 :root{
     /* Colors */
     --color-text: rgb(255, 221, 67);
@@ -14,7 +20,7 @@
 
     /* Fonts */
     --font-dune:'DuneRise';
-
+    --font-sf: 'SFMono Regular 11';
 
     /* Animation */
     --play : running;

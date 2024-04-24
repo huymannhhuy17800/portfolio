@@ -1,0 +1,55 @@
+@import '../../vars.css';
+
+.container {
+    width: 650px;
+    height: 400px;
+    background : black;
+    border-radius: 10px;
+    font-family: var(--font-sf)!important;
+}
+ 
+.header {
+    display: flex;
+    align-items: center;
+    background: rgb(187, 186, 186);
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    height: 26px;
+    border-bottom: 0.7px solid gray;
+ 
+    .option {
+        display: flex;
+    }
+ 
+    .title {
+        margin: auto;
+        color:black;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+ 
+ 
+.content {
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 5px 10px;
+    .content-row {
+        display: flex;
+        font-family: var(--font-sf);
+    }
+    .content-row span.path{
+        color: var(--color-text);
+    }
+ 
+    .content-row span.command {
+        color: white;
+    }
+ 
+    .content-row span.main {
+        color: rgb(17, 255, 0);
+    }
+}
